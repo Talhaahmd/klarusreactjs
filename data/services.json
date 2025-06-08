@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Shopify Development",
+    "img": "/assets/imgs/serv-icons/1.png",
+    "desc": "Custom Shopify solutions for scalable, high-converting online stores.",
+    "link": "/page-services-details"
+  },
+  {
+    "title": "Wordpress and Elementor",
+    "img": "/assets/imgs/serv-icons/2.png",
+    "desc": "Flexible WordPress sites and Elementor builds for easy content management.",
+    "link": "/page-services-details"
+  },
+  {
+    "title": "Custom Web Designs",
+    "img": "/assets/imgs/serv-icons/3.png",
+    "desc": "Unique, responsive web designs tailored to your brand and goals.",
+    "link": "/page-services-details"
+  },
+  {
+    "title": "SEO & Email Marketing",
+    "img": "/assets/imgs/serv-icons/4.png",
+    "desc": "Boost your visibility and engagement with expert SEO and email campaigns.",
+    "link": "/page-services-details"
+  },
+  {
+    "title": "AI Development & Integrations",
+    "img": "/assets/imgs/serv-icons/5.png",
+    "desc": "Leverage AI for automation, chatbots, and smart business solutions.",
+    "link": "/page-services-details"
+  },
+  {
+    "title": "Ui-UX Designs",
+    "img": "/assets/imgs/serv-icons/6.png",
+    "desc": "Intuitive, beautiful interfaces for seamless user experiences.",
+    "link": "/page-services-details"
+  }
+]
