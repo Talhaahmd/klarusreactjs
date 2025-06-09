@@ -13,7 +13,7 @@ export default async function PortfolioPage() {
         <section className="text-center mb-16">
           <h1 className="text-5xl font-extrabold mb-4">Our Portfolio</h1>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            A curated collection of our finest work, showcasing the projects we&apos;ve brought to life with creativity and precision.
+            A curated collection of our finest work, showcasing the projects we've brought to life with creativity and precision.
           </p>
         </section>
 

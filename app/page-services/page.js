@@ -44,10 +44,10 @@ export default function Home() {
             <Services />
             <Intro2 />
             <Numbers />
+            <Testimonials />
             <Clients />
             <Blog />
             <Marq2 />
-            <Testimonials />
           </main>
           <Footer />
         </div>

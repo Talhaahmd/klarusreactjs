@@ -1,14 +1,13 @@
 'use client';
 import React from 'react';
-import data from '@/data/testimonials';
 import { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 function Testimonials() {
   const swiperOptions = {
     modules: [Pagination, Navigation],
-    spaceBetween: 30,
     loop: true,
+    spaceBetween: 30,
     pagination: {
       el: '.testimonials-minim .swiper-pagination',
       clickable: true,
@@ -21,7 +20,7 @@ function Testimonials() {
   };
   return (
     <section className="testimonials">
-      <div className="container section-padding bord-top-grd">
+      <div className="container section-padding bord-bottom-grd">
         <div className="row">
           <div className="col-lg-4 md-mb50">
             <div className="img-full">
@@ -47,30 +46,60 @@ function Testimonials() {
                   className="swiper-container"
                   data-swiper="container"
                 >
-                  {data.slice(0, 2).map((item, i) => (
-                    <SwiperSlide key={i}>
-                      <div className="item">
-                        <div className="content">
-                          <div className="text">
-                            <p className="fz-30">{item.desc} </p>
+                  <SwiperSlide>
+                    <div className="item">
+                      <div className="content">
+                        <div className="text">
+                          <p className="fz-30">
+                            I have been hiring people in this space for a number
+                            of years and I have never seen this level of
+                            professionalism. It really feels like you are
+                            working with a team that can get the job done.
+                          </p>
+                        </div>
+                        <div className="info d-flex align-items-center pt-40 mt-40 bord-thin-top">
+                          <div>
+                            <div className="fit-img circle">
+                              <img src="/assets/imgs/testim/t1.jpg" alt="" />
+                            </div>
                           </div>
-                          <div className="info d-flex align-items-center pt-40 mt-40 bord-thin-top">
-                            <div>
-                              <div className="fit-img circle">
-                                <img src={item.img} alt="" />
-                              </div>
-                            </div>
-                            <div className="ml-20">
-                              <h5>{item.name}</h5>
-                              <span className="sub-title main-color">
-                                {item.subName}
-                              </span>
-                            </div>
+                          <div className="ml-20">
+                            <h5>Adam Beckley</h5>
+                            <span className="sub-title main-color">
+                              Founder & CEO
+                            </span>
                           </div>
                         </div>
                       </div>
-                    </SwiperSlide>
-                  ))}
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="item">
+                      <div className="content">
+                        <div className="text">
+                          <p className="fz-30">
+                            I have been hiring people in this space for a number
+                            of years and I have never seen this level of
+                            professionalism. It really feels like you are
+                            working with a team that can get the job done.
+                          </p>
+                        </div>
+                        <div className="info d-flex align-items-center pt-40 mt-40 bord-thin-top">
+                          <div>
+                            <div className="fit-img circle">
+                              <img src="/assets/imgs/testim/t2.jpg" alt="" />
+                            </div>
+                          </div>
+                          <div className="ml-20">
+                            <h5>Adam Beckley</h5>
+                            <span className="sub-title main-color">
+                              Founder & CEO
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
                 </Swiper>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -14,6 +14,7 @@ import Intro2 from '@/components/home-digital-agency/Intro2';
 import Numbers from '@/components/home-digital-agency/Numbers';
 import Portfolio from '@/components/home-digital-agency/Portfolio';
 import Feat from '@/components/home-digital-agency/Feat';
+import Testimonials from '@/components/home-digital-agency/Testimonials';
 import Blog from '@/components/home-digital-agency/Blog';
 
 export const metadata = {
@@ -47,6 +48,7 @@ export default function Home() {
             <Numbers />
             <Portfolio />
             <Feat />
+            <Testimonials />
             <Clients />
             <Blog />
             <Marq2 />
