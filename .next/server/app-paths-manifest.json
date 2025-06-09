@@ -1,0 +1,7 @@
+{
+  "/project-details/page": "app/project-details/page.js",
+  "/page": "app/page.js",
+  "/portfolio-creative-carousel/page": "app/portfolio-creative-carousel/page.js",
+  "/page-about/page": "app/page-about/page.js",
+  "/page-services/page": "app/page-services/page.js"
+}
