@@ -1,6 +1,7 @@
 import Navbar from '@/components/common/Navbar';
 import Footer from '@/components/common/Footer';
 import { supabase } from '@/lib/supabaseClient';
+import Image from 'next/image';
 
 export default async function PortfolioPage() {
   const { data: projects, error } = await supabase.from('projects').select('*');
@@ -13,7 +14,7 @@ export default async function PortfolioPage() {
         <section className="text-center mb-16">
           <h1 className="text-5xl font-extrabold mb-4">Our Portfolio</h1>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            A curated collection of our finest work, showcasing the projects we've brought to life with creativity and precision.
+            A curated collection of our finest work, showcasing the projects we&apos;ve brought to life with creativity and precision.
           </p>
         </section>
 
@@ -25,9 +26,11 @@ export default async function PortfolioPage() {
             {projects.map((project) => (
               <div key={project.id} className="relative bg-[#181818] rounded-xl overflow-hidden shadow-lg">
                 {project.featured_image && (
-                  <img
+                  <Image
                     src={project.featured_image}
                     alt={project.title}
+                    width={800}
+                    height={400}
                     className="w-full h-[400px] object-cover"
                   />
                 )}

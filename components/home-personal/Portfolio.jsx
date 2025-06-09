@@ -1,5 +1,6 @@
 'use client';
 import React, { useEffect } from 'react';
+import Image from 'next/image';
 
 function Portfolio() {
   function Playing() {
@@ -88,7 +89,7 @@ function Portfolio() {
                   </div>
                   <div>
                     <p>
-                      We're a full stack firm that can help you from strategy to
+                      We are a full stack firm that can help you from strategy to
                       launch, and anywhere in between.
                     </p>
                     <a href="/project-details" className="underline mt-15">
@@ -101,7 +102,13 @@ function Portfolio() {
               </div>
               <div className="col-lg-7">
                 <div className="img">
-                  <img src="/assets/imgs/works/1/1.jpg" alt="" />
+                  <Image
+                    src="/assets/imgs/works/1/1.jpg"
+                    alt="Cutter mobile app"
+                    width={800}
+                    height={600}
+                    className="img-fluid"
+                  />
                 </div>
               </div>
             </div>
@@ -123,7 +130,7 @@ function Portfolio() {
                   </div>
                   <div>
                     <p>
-                      We're a full stack firm that can help you from strategy to
+                      We are a full stack firm that can help you from strategy to
                       launch, and anywhere in between.
                     </p>
                     <a href="/project-details" className="underline mt-15">
@@ -136,7 +143,13 @@ function Portfolio() {
               </div>
               <div className="col-lg-7">
                 <div className="img">
-                  <img src="/assets/imgs/works/1/2.jpg" alt="" />
+                  <Image
+                    src="/assets/imgs/works/1/2.jpg"
+                    alt="Cutter mobile app"
+                    width={800}
+                    height={600}
+                    className="img-fluid"
+                  />
                 </div>
               </div>
             </div>
@@ -158,7 +171,7 @@ function Portfolio() {
                   </div>
                   <div>
                     <p>
-                      We're a full stack firm that can help you from strategy to
+                      We are a full stack firm that can help you from strategy to
                       launch, and anywhere in between.
                     </p>
                     <a href="/project-details" className="underline mt-15">
@@ -171,7 +184,13 @@ function Portfolio() {
               </div>
               <div className="col-lg-7">
                 <div className="img">
-                  <img src="/assets/imgs/works/1/3.jpg" alt="" />
+                  <Image
+                    src="/assets/imgs/works/1/3.jpg"
+                    alt="Cutter mobile app"
+                    width={800}
+                    height={600}
+                    className="img-fluid"
+                  />
                 </div>
               </div>
             </div>
@@ -193,7 +212,7 @@ function Portfolio() {
                   </div>
                   <div>
                     <p>
-                      We're a full stack firm that can help you from strategy to
+                      We are a full stack firm that can help you from strategy to
                       launch, and anywhere in between.
                     </p>
                     <a href="/project-details" className="underline mt-15">
@@ -206,7 +225,13 @@ function Portfolio() {
               </div>
               <div className="col-lg-7">
                 <div className="img">
-                  <img src="/assets/imgs/works/1/4.jpg" alt="" />
+                  <Image
+                    src="/assets/imgs/works/1/4.jpg"
+                    alt="Cutter mobile app"
+                    width={800}
+                    height={600}
+                    className="img-fluid"
+                  />
                 </div>
               </div>
             </div>
@@ -228,7 +253,7 @@ function Portfolio() {
                   </div>
                   <div>
                     <p>
-                      We're a full stack firm that can help you from strategy to
+                      We are a full stack firm that can help you from strategy to
                       launch, and anywhere in between.
                     </p>
                     <a href="/project-details" className="underline mt-15">
@@ -241,7 +266,13 @@ function Portfolio() {
               </div>
               <div className="col-lg-7">
                 <div className="img">
-                  <img src="/assets/imgs/works/1/5.jpg" alt="" />
+                  <Image
+                    src="/assets/imgs/works/1/5.jpg"
+                    alt="Cutter mobile app"
+                    width={800}
+                    height={600}
+                    className="img-fluid"
+                  />
                 </div>
               </div>
             </div>
