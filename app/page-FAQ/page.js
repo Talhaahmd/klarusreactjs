@@ -9,6 +9,7 @@ import Navbar from '@/components/common/Navbar';
 import Script from 'next/script';
 import Blog from '@/components/home-main/Blog';
 import Clients from '@/components/common/Clients';
+import Testimonials from '@/components/home-creative-agency/Testimonials';
 import Header from '@/components/page-FAQ/Header';
 import FAQS from '@/components/page-FAQ/FAQS';
 import Numbers from '@/components/page-FAQ/Numbers';
@@ -41,6 +42,7 @@ export default function Home() {
             <Header />
             <FAQS />
             <Numbers />
+            <Testimonials />
             <Clients />
             <Blog />
             <Marq2 />
