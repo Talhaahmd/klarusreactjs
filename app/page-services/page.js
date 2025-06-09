@@ -13,6 +13,7 @@ import Intro2 from '@/components/home-digital-agency/Intro2';
 import Blog from '@/components/home-digital-agency/Blog';
 import Header from '@/components/page-services/Header';
 import Numbers from '@/components/page-services/Numbers';
+import Testimonials from '@/components/home-main/Testimonials';
 
 export const metadata = {
   title: 'webfolio',
@@ -43,10 +44,10 @@ export default function Home() {
             <Services />
             <Intro2 />
             <Numbers />
-            <Testimonials />
             <Clients />
             <Blog />
             <Marq2 />
+            <Testimonials />
           </main>
           <Footer />
         </div>

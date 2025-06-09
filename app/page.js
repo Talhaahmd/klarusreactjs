@@ -12,9 +12,9 @@ import Marq2 from '@/components/common/Marq2';
 import Navbar from '@/components/common/Navbar';
 import Portfolio from '@/components/home-main/Portfolio';
 import Services from '@/components/home-main/Services';
-import Testimonials from '@/components/home-main/Testimonials';
 import Script from 'next/script';
 import Marq from '@/components/home-main/Marq';
+import Testimonials from '@/components/home-main/Testimonials';
 
 export const metadata = {
   title: 'webfolio',
@@ -49,6 +49,7 @@ export default function Home() {
             <Feat />
             <Clients />
             <Marq2 />
+            <Testimonials />
           </main>
           <Footer />
         </div>

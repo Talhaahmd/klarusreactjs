@@ -88,7 +88,7 @@ function Portfolio() {
                   </div>
                   <div>
                     <p>
-                      We're a full stack firm that can help you from strategy to
+                      We&apos;re a full stack firm that can help you from strategy to
                       launch, and anywhere in between.
                     </p>
                     <a href="/project-details" className="underline mt-15">
@@ -123,7 +123,7 @@ function Portfolio() {
                   </div>
                   <div>
                     <p>
-                      We're a full stack firm that can help you from strategy to
+                      We&apos;re a full stack firm that can help you from strategy to
                       launch, and anywhere in between.
                     </p>
                     <a href="/project-details" className="underline mt-15">
@@ -158,7 +158,7 @@ function Portfolio() {
                   </div>
                   <div>
                     <p>
-                      We're a full stack firm that can help you from strategy to
+                      We&apos;re a full stack firm that can help you from strategy to
                       launch, and anywhere in between.
                     </p>
                     <a href="/project-details" className="underline mt-15">
@@ -193,7 +193,7 @@ function Portfolio() {
                   </div>
                   <div>
                     <p>
-                      We're a full stack firm that can help you from strategy to
+                      We&apos;re a full stack firm that can help you from strategy to
                       launch, and anywhere in between.
                     </p>
                     <a href="/project-details" className="underline mt-15">
@@ -228,7 +228,7 @@ function Portfolio() {
                   </div>
                   <div>
                     <p>
-                      We're a full stack firm that can help you from strategy to
+                      We&apos;re a full stack firm that can help you from strategy to
                       launch, and anywhere in between.
                     </p>
                     <a href="/project-details" className="underline mt-15">
